@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Helmet } from 'react-helmet';
 import FilterGroups from '../FilterGroups'
 import ProductGrid from "../ProductGrid";
 import { MdKeyboardArrowLeft,MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -33,6 +34,11 @@ class Homepage extends Component {
     render(){
         const {showFilter,showFilterMobile,count} = this.state
     return(
+        <div>
+            <Helmet>
+                <title>Ecommerce Website</title>
+                <meta name="description" content="Home page of the website containing Header section, Filtergroups, Product grid and Footer section.Header and footer sections are directly rendered here filter groups and product grid are rendered in seperate components and imported this Homepage." />   
+            </Helmet>
         <div className='ecommerceWebsite'>
             <img src='https://res.cloudinary.com/dhs1xv9et/image/upload/v1712435447/Grey_Strip_pgm56g.png' className='greyStrip' alt='Grey Strip' />
             <div className='Header'>
@@ -225,6 +231,7 @@ class Homepage extends Component {
                     <p>Copyright © 2023 mettamuse. All rights reserved.</p>
             </div>
 
+        </div>
         </div>
     )
 }  
