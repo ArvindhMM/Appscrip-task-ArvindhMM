@@ -1,0 +1,41 @@
+.productCard{
+    width: 20vw;
+    height:300px;
+    margin: 3px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width:568px){
+    .productCard{
+        width: 150px;
+        height:300px;
+        margin: 3px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.productDetails{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.productImage{
+    width: 90%;
+    height: 70%;
+}
+.liked-icon {
+    color: red;
+}
+.like-button{
+    background-color: transparent;
+    border: none;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin:5px
+}

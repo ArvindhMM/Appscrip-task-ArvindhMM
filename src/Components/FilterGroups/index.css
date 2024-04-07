@@ -1,0 +1,60 @@
+h2,h3{
+    margin: 0px;
+}
+h3{
+    font-weight: normal;
+    font-size: 13px;
+}
+h2{
+    font-size: 16px;
+}
+.optionsForEachCategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.unSelectButton{
+    background-color: transparent;
+    color: #d2d2d6;
+    border: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.filterGroupsContainer{
+    width:25vw;
+    box-sizing: border-box;
+}
+@media screen and (max-width:568px){
+    .filterGroupsContainer{
+        width:100vw;
+        box-sizing: border-box;
+    }
+}
+.customazableContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sectiontop{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+} 
+.eachCategorySection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow{
+    background-color: transparent;
+    border: none;
+}
+.eachOption{
+    margin-bottom: 3px;
+    font-size: 12px;
+}

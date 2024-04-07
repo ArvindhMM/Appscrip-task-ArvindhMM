@@ -1,0 +1,352 @@
+.ecommerceWebsite{
+    width: 100vw;
+    box-sizing: border-box;
+}
+.greyStrip{
+    width: 100%;
+    height: 15px;
+}
+@media screen and (min-width:512px){
+    .websiteTitleAndDescription{
+        width: 50vw;
+        margin: auto;
+    
+    }
+    .logo{
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .iconsAndLanguageContainer{
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+    .icon{
+        width: 16px;
+        margin-right: 10px;
+    }
+    .languageDropDown{
+        border: none;
+    }
+    .Header{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        box-sizing: border-box;
+    
+    }
+    .HeaderMenu{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 30px;
+        margin-top: 0px;
+    }
+    .menuItem{
+        margin-right: 15px;
+    }
+    .HeaderSection2{
+        margin-top: 0px;
+    }
+    .hideFilterButton{
+        color: #a4a4a8;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+    }
+    .sortBy{
+      padding: 8px;
+      font-size: 16px; 
+      border: none;
+      width: 180px; 
+    }
+    .sortBy option:checked {
+        font-weight: bold;
+    }
+    .itemsCountHideFilterAndRecommendedContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .productsCountAndHideFilter{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .count{
+        margin-right: 3px;
+        margin: 0px;
+    }
+    .contentContainerDesktop{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+    }
+    .footerDesktop{
+        background-color: black;
+        box-sizing: border-box;
+        padding: 40px;
+        color: white;
+    }
+    .footerSection1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .footerSection1Left{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .subscribeContainer{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+    .subscribeButton{
+        background-color: transparent;
+        color: #a4a4a8;
+        margin-left: 5px;
+        border: solid;
+        border-color: #a4a4a8;
+        font-size: 10px;
+        padding: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .footerSection1Right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .USFlag{
+        margin-right: 5px;
+    }
+    .footerLanguage{
+        display: flex;
+        flex-direction: row;
+        margin-top: 8px;
+    }
+    .footerContact{
+        margin-top: 5px;
+        margin-bottom: 7px;
+    }
+    .linksList{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0px;
+    }
+    .link{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .footerSection2Links, .QuickLinks , .footerSection2Part3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footerSection2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .FilterAndRecommendedContainerMobile{
+        display: none;
+    }
+    .HeaderSection1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+    }
+    .HeaderSection1mobile{
+        display: none;
+    }
+    .footerMobile{
+        display: none;
+    }
+    .contentContainerMobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width:512px){
+    .footerDesktop{
+        display: none;
+    }
+    .contentContainerDesktop{
+        display: none;
+    }
+    .contentContainerMobile{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .footerMobile{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+    .desktop{
+        display: none;
+    }
+    .logo{
+        justify-self: flex-start;
+        margin-left: 10px;
+    }
+    .hideFilterButton{
+        background-color: transparent;
+        border: none;
+        font-size: 15px;
+    }
+    .sortBy{
+        padding: 8px;
+        font-size: 15px; 
+        border: none;
+        width: 180px; 
+      }
+      .sortBy option:checked {
+          font-weight: bold;
+      }
+    .itemsCountHideFilterAndRecommendedContainer{
+        display: none;
+    }
+    .footerSection1Mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .FilterAndRecommendedContainerMobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .hamburgerAndLogo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .HeaderSection1mobile{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    }
+    .subscribeContainerMobile{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        
+    }
+    .footerSection2Mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .numberAndEmailMobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style-type: none;
+        font-size: 15px;
+        padding-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .footerSection3Mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footerContact{
+        margin: 0px;
+        margin-left: 7px;
+    }
+    .subscribeButton{
+        background-color: transparent;
+        color: #a4a4a8;
+        margin-left: 5px;
+        border: solid;
+        border-color: #a4a4a8;
+        font-size: 10px;
+        padding: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .USFlag{
+        margin-right: 5px;
+    }
+    .footerLanguage{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .footerContact{
+        margin-top: 5px;
+        margin-bottom: 7px;
+    }
+    .linksList{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0px;
+    }
+    .link{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .footerSection2Links, .QuickLinks , .footerSection2Part3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footerSection2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .lineMobile{
+        color: white;
+        margin: 0px;
+    }
+    .mobileMettaMuse{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footerSection4Mobile, .footerSection5Mobile , .footerSection6Mobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .footerSection7Mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .paymentMethods{
+        width: 90vw;
+        margin-top: 10px;
+    }
+}
